@@ -1,0 +1,72 @@
+body {
+  background-color: #ebebeb;
+}
+
+.heading {
+  background-color: #333333;
+  margin-bottom: 20px;
+  padding: 5px 0px 5px 15px;
+}
+
+.title {
+  background-color: #333333;
+  padding: 5px;
+  color: white;
+}
+
+#runtime {
+  background-color: #333333;
+  color: #3e8fde;
+  padding: 0px 0px 5px 5px;
+}
+
+.content {
+  color: #3e8fde;
+}
+
+#subtitle {
+  color: white;
+  margin-left: 55px;
+}
+
+#showing {
+  margin-left: 20px;
+}
+
+#films li::before {
+  content: "";
+}
+
+.film {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.sold-out {
+  color: lightgray;
+}
+
+img {
+  max-width: 25vw;
+}
+
+#film-info {
+  padding-bottom: 15px;
+}
+.film-item {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s;
+}
+
+.film-item:hover {
+  background-color: #f1f1f1; /* Change background color on hover */
+}
+
+.buy-ticket-btn, .delete-film-btn {
+  margin-left: 10px; /* Space between buttons */
+}
+
